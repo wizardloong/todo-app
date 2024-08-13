@@ -17,13 +17,13 @@ migrate create -ext sql -dir ./schema -seq init
 ### Up ###
 
 ```bash
-migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5436/postgres?sslmode=disable' up
+migrate -path ./schema -database 'postgres://postgres:query@localhost:5436/postgres?sslmode=disable' up
 ```
 
 ### Down ###
 
 ```bash
-migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5436/postgres?sslmode=disable' down
+migrate -path ./schema -database 'postgres://postgres:query@localhost:5436/postgres?sslmode=disable' down
 ```
 
 ## Подключение к БД через cli ##
